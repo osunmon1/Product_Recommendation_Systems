@@ -1,0 +1,14 @@
+# commands to create capstone enviroment 
+conda create -n capstone python=3.8 numpy pandas scipy scikit-learn=0.24.1 jupyter jupyterlab seaborn
+
+conda activate capstone
+
+conda install -c conda-forge mlxtend=0.18.0
+
+conda install -c conda-forge scikit-surprise=1.1.1
+
+conda install networkx=2.5
+
+conda install -c conda-forge pyvis=0.1.9
+
+# joblib=1.1.1
